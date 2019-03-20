@@ -49,7 +49,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ChangeCityDel
                 self.updateWeatherData(json: weatherJSON)
                 print(weatherJSON)
             } else {
-                print(response.result.error)
+//                print(response.result.error)
                 self.cityLabel.text = "Connection Issues"
             }
         }
